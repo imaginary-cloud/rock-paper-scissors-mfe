@@ -1,0 +1,38 @@
+.show-move {
+  transition: all 2s ease-in-out;
+    animation: shake infinite 0.4s linear;
+}
+
+.show-move.rock {
+  transform: scale(1.2);
+}
+
+.show-move.scissors {
+  transform: rotate(0.2deg);
+}
+
+.show-move.paper {
+  transform: scale(0.5);
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(5deg);
+  }
+
+  50% {
+    transform: rotate(0deg);
+  }
+
+  75% {
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}

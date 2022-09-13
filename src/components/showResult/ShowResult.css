@@ -1,0 +1,17 @@
+.show-result {
+  color: grey;
+  transition: all .4s ease-in-out;
+  transform: scale(1) rotate(0);
+}
+
+.show-result.win {
+  color: green;
+}
+
+.show-result.loss {
+  color: red;
+}
+
+.show-result.draw {
+  color: orange;
+}

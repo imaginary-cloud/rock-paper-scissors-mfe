@@ -1,0 +1,13 @@
+.info-panel {
+  position: absolute;
+  text-align: right;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: auto 24px;
+}
+
+.info-panel h4,
+.info-panel h5 {
+  margin: 4px 0;
+  color: white;
+}

@@ -1,0 +1,39 @@
+.streaks-frame {
+  width: 100%;
+}
+
+.streaks-frame h2 {
+  color: white;
+}
+
+.records-frame {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 16px;
+}
+
+.records-frame h3,
+.records-frame h4 {
+  color: white;
+
+}
+
+.records-frame h3 {
+  margin: 12px;
+}
+
+.records-frame h4 {
+  margin: 8px;
+}
+
+.records-frame>div {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.records-frame>div>h2 {
+  margin: 8px;
+}
