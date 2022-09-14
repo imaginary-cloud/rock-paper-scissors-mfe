@@ -1,9 +1,0 @@
-.App-menu {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  }
-  
-  .App-menu button h3 {
-    margin: 8px;
-}
